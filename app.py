@@ -32,7 +32,7 @@ for l in range(len(files)):
     with st.beta_expander(files[l]):
         st.image("./images/pdf.png")
         st.markdown(get_binary_file_downloader_html('./tempDir/'+files[l], files[l]), unsafe_allow_html=True)
-st.sidebar.title("Doctorante Amira Benhjal")
+st.sidebar.title("Etudiante Amira Benhjal")
 st.sidebar.subheader("")
 st.sidebar.image("./images/amira.jpg",width=250)
 st.sidebar.markdown("""
